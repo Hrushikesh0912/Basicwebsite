@@ -1,0 +1,205 @@
+{
+
+    margin:0;
+    padding:0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  header {
+    background-color: #333;
+    
+  }
+  
+  .logo{
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo img{
+    width: 30%;
+    border-radius: 70%;
+}
+  .navbar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    height: 70px;
+}
+
+  nav ul {
+    list-style: none;
+    width:70%;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px 30px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  .rightnav{
+    width: 50%;
+    text-align: right;
+    padding: 23px;
+}   
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+    
+}
+
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+    border-radius: 9px;
+}
+
+.btn-dark{
+  color: black;
+  text-align: center;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../img/bag.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+  
+  main {
+    padding: 100px;
+    
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 7 px;
+    text-align: center;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    nav ul li {
+      display: block;
+    }
+  
+    nav ul li a {
+      display: block;
+      padding: 5px;
+    }
+  }
+
+
+    .section1{
+      height: 400%;
+      width: 722px;
+      display: flex;
+      justify-content: space-evenly;
+      align-self: center;
+      margin: 50%;
+      margin: auto;
+      align-items: center;
+      color: #fff;
+
+    }
+
+    .section2{
+      height: 400%;
+    width: 582px;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    margin: 50%;
+    margin: auto;
+    align-items: center;
+    color: #fff;
+    }
+
+
+    .image1{
+      width: 162px;
+    height: 94px;
+    display: flex;
+    position: absolute;
+    top: 45%;
+    left: 7%;
+    font-family: 'Ubuntu', sans-serif;
+  
+
+}
+
+
+.image2{
+  width: 208px;
+  height: 99px;
+  display: flex;
+  position: absolute;
+  top: 80%;
+  right: 7%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.image3{width: 162px;
+  height: 129px;
+  display: flex;
+  position: absolute;
+  top: 105%;
+  left: 9%;
+  font-family: 'Ubuntu', sans-serif;
+
+
+}
+
+.contact{
+  background-color: #f6f5f4 ;
+  height: 360px;
+}
+.text-center{
+  text-align: center;
+  padding: 30px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.form{
+  max-width: 300px;
+  margin: 10px auto;
+}
+
+.form-input{
+  margin: 14px 0;
+  padding:3px 3px;
+  width: 100%;
+  font-size: 19px;
+  border: 2px solid grey;
+  border-radius: 6px;
+
+}
+
+
+
+
+
+
